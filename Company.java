@@ -43,9 +43,9 @@
                 return totalWage;
         }
         public static void main(String[] args){
-                CompanyWage empDMart = new CompanyWage("DMart", 20, 8, 4, 20, 100);
-                CompanyWage empReliance = new CompanyWage("Reliance", 24, 9, 5, 25, 120);
-                CompanyWage empBigBasket = new CompanyWage("BigBasket", 20, 8, 5, 24, 120);
+                CompanyWage empDMart = new CompanyWage("DMart", 20, 10, 5, 22, 100);
+                CompanyWage empReliance = new CompanyWage("Reliance", 24, 9, 6, 25, 120);
+                CompanyWage empBigBasket = new CompanyWage("BigBasket", 20, 7, 5, 24, 110);
                 System.out.println("Company Name: "+ empDMart.company);
                 System.out.println("monthy wage is: "+empDMart.TotalEmployeeWage());
                 System.out.println("Company Name: "+ empReliance.company);
