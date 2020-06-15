@@ -34,7 +34,7 @@ public class Company{
                 this.dailyWage = dailyWage;
         }
 }
-        public class EmployeeWage implements IEmployeeWage{
+        public class EmpWage implements IEmployeeWage{
         private ArrayList<Company> companyArray;
         private int numberOfEmployee = 0;
 
@@ -91,7 +91,7 @@ public class Company{
         }
 
         public static void main(String[] args){
-                EmployeeWage employeeWage = new EmployeeWage();
+                EmpWage employeeWage = new EmpWage();
                 employeeWage.addCompanyEmployee("DMart", 20, 8, 4, 20, 100);
                 employeeWage.addCompanyEmployee("Reliance", 24, 9, 5, 25, 120);
                 employeeWage.addCompanyEmployee("BigBasket", 20, 8, 5, 24, 120);
